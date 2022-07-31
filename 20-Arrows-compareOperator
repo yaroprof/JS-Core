@@ -1,0 +1,5 @@
+const myArr = [1, true, 'Peter']
+const myArr2 = [1, true, 'Peter']
+const myArr3 = myArr
+
+console.log( myArr === myArr3); // обидва масиви посилаються на один і той же об'єкт; копіювання посилання на один і той же масив
